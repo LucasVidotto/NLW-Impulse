@@ -1,0 +1,11 @@
+overflow-hiden -> qualquer elemento que sobreponha o tamanho maximo ele fica invisivel
+group-> avisa que todos os elementos ou tags são um grupo(agrupa todos abaixos)  }
+
+
+elementos um abaixo do outro { flex; flex-colum}
+
+items-end-> os itens sempre estejam alinhado ao final, o mais possivel a direita
+
+w-[calc(100vw-2rem)] -> calcula a ocupação em 100% da tela - 2rem;
+
+md:w-auto -> quando o tamanho da tela for médio, faz padrão automatico(responsividade);
