@@ -9,3 +9,39 @@ items-end-> os itens sempre estejam alinhado ao final, o mais possivel a direita
 w-[calc(100vw-2rem)] -> calcula a ocupação em 100% da tela - 2rem;
 
 md:w-auto -> quando o tamanho da tela for médio, faz padrão automatico(responsividade);
+
+Object.entries() -> se eu tiver um objeto nesse formato, ele retorna um array de array
+e cada um desse array tem duas posições, onde o primeiro é a chave(bug) e o conteudo(title e o image)
+exemplo ilustrativo:
+[
+    ['Bug', {...}],
+    ['Idea', {...}],
+]
+
+
+focus:border-brand-500 -> muda a cor quando tiver o foco nela(usando teclado)
+
+focus:outline-none -> retira a cor padrão branca da borda do focus
+
+keyof -> as chaves de ...
+
+typeof retorna uma string indicando o tipo de um operando;
+
+flex-1 -> ocupar o maximo da largura do elemento pai(<footer>)
+
+style={{}} -> primeira chave padrão para incluir JS, e a segunda para indicar que é 
+um objeto a ser incluido;
+
+onChange -> toda vez que o usuario digitar algo( quando muda os valores nos input ou textarea)
+
+{event -> evento nativo do javascript(evento de digitação)} => usado com onChange
+
+COm ReactJS:
+function handlerSubmitFeedback(event) {
+    event.perventDeafult(); -> isso é utilizado para interceptar a página de recarregar 
+    utilizado com form(formularios)
+        console.log({
+            screenshot,
+            comment
+        })
+    }
